@@ -1,0 +1,6 @@
+This is the order of progression in terms of notebooks:
+1. AmazonReview_Q4 - Token weights :- Evaluate accuracy metric improvements from using weighted values for tokens.
+2. AmazonReview_Q4 - SVM regularisation parameter :- Now with weighted values for tokens, see if we can improve accuracy metrics by varying regularisation (C) parameter for the SVM algorithm.
+3. AmazonReview_Q4 - Stopwords :- Having applied steps above, see the affect on accuracy metrics from including Stopwords.
+4. AmazonReview_Q4 - N-grams :- Evaluate accuracy metrics using bigram features, having applied steps 1 & 2.
+5. AmazonReview_Q5 - Extra Features :- Evaluate the accuracy metrics including 3 extra features, having applied steps 1 & 2.
